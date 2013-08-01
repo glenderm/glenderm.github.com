@@ -1,0 +1,66 @@
+body { background: #eee; margin: 0px; padding: 0px; font-family: helvetica, arial, sans-serif; font-size: 13px; }
+a { color: #78B49E; text-decoration: none; }
+a:hover { text-decoration: underline; }
+ul { padding-left: 29px; }
+img.form-image { width: 44px; margin: 10px; padding: 5px; border-radius: 2px; -webkit-border-radius: 2px; -moz-border-radius: 2px; }
+
+#wrapper-outer { border-top: 0px; background: #fff; width: 800px; margin: 0px auto 20px auto; }
+#wrapper { }
+	.page-wrapper { padding: 2px 10px 5px 10px; }
+	.page-wrapper h2 { margin-top: 5px; margin-bottom: 15px; }
+	#header { width: 800px; padding: 60px 0 0; background: url('../images/header-logo.png') 0px 0px no-repeat; }
+		#header h1 { margin: 0 20px 60px 95px; font-size: 30px; }
+			#header h1 span { font-size: 18px; }
+
+		#header ul#menu { width: 100%; height: 38px; background: #eee; font-size: 13px; font-weight: bold; list-style-type: none; margin: 0; padding: 0; border-bottom: 13px solid #78B49E; }
+			#header ul#menu li { display: block; float: left; margin: 0 0 0 5px; }
+			#header ul#menu li.first { margin: 0 0 0 20px; }
+				#header ul#menu li a { height: 46px; color: #777; text-decoration: none; display: block; float: left; line-height: 300%; padding: 8px 15px 0; border-radius: 5px 5px 0 0; -moz-border-radius: 5px 5px 0 0; -webkit-border-radius: 5px 5px 0 0; position: relative; top: -8px; }
+				#header ul#menu li a:hover { color: #333; }
+				#header ul#menu li a.current{ color: #fff; background: #78B49E; padding: 5px 15px 0; }
+
+	#body { margin: 20px; }
+		#body .ajax-hidden { display: none !important; }
+		#body .image-float-right { float: right; margin: 0 0 15px 15px; }
+		#body .blue-block { float: right; border: 5px solid #78B49E; padding: 3px 18px 8px 18px; margin: 20px 0px 20px 20px; background: #00A595; color: #eee; -moz-border-radius: 15px; -webkit-border-radius: 15px; border-radius: 15px; }
+		#body .blue-block a { color: #fff; text-decoration: underline; }
+		#body .top-image { width: 431px; margin: 10px 10px 20px 0px; }
+		#body .small { font-size: 10px; }
+		#body table h3, #body div h3 { margin-top: 0px; }
+		#body div.blue-block h3 { margin-top: 15px; }
+		#body table.contact { border: 1px solid #000; border-collapse: collapse; }
+		#body table.contact td { padding: 5px; border: 1px solid #000; }
+		#body table.recordings-table { border: 0px; }
+		#body table.recordings-table td { text-align: center; width: 202px; padding: 0 25px; }
+		#body table.recordings-table td a { margin: 0 auto; }
+		#body a img { border: 0px; }
+		#body #quotes .quote .piece { display: block; font-style: normal; font-size: 11px; text-align: right; }
+		#body #quotes .quote .quote { position: relative; display: block; font-size: 11px; font-style: italic; }
+		#body #quotes .quote .quote .l { font-size: 50px; font-style: normal; position: absolute; top: -10px; left: -20px; }
+		#body #quotes .quote .quote .r { font-size: 50px; font-style: normal; position: absolute; bottom: -35px; right: -15px; }
+		#body #quotes .quote .reviewer { display: block; text-align: right; font-size: 11px; }
+
+	#footer { color: #777; font-size: 10px; text-align: center; background: #eee; border-top: 12px solid #78B49E; padding: 30px 20px 20px 20px; }
+		#footer .module { float: left; margin: 0 20px; text-align: left; }
+		#footer a { text-decoration: underline; color: inherit; }
+		#footer a:hover { color: #444; }
+
+#doctors  *:focus { outline: 0; }
+#doctors  { font-family: "Helvetica", "Arial", "Verdana", "Tahoma", "sans-serif", sans-serif, sans; width: 750px; }
+#doctors h2 { width: 200px; text-align: center; padding-top: 20px; }
+#doctors  .overlay { position: relative; overflow: hidden; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
+#doctors  .overlay .over { position: absolute; z-index: 20; text-align: center; }
+#doctors  .overlay .over .number { font-size: 4em; line-height: 1.25em; font-weight: bold; display: block; }
+#doctors  .overlay .over .things { display: block; margin-top: -.5em; font-size: 1em; font-weight: bold; }
+#doctors  .overlay .glass { opacity: 0.9; filter: alpha(opacity = 90 ); position: absolute; z-index: 10; }
+#doctors  .overlay .under { overflow: hidden; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; text-align: center; position: absolute; z-index: 5; }
+#doctors  .doctor { width: 155px; height: 207px; overflow: hidden; float: left; margin: 23px; }
+#doctors  .doctor_body { margin: 23px; float: left; width: 500px; }
+#doctors  .doctor_body h3 { margin-top: 0px; padding-top: 0px; }
+#doctors  .doctor .meta { display: none; }
+#doctors  .doctor .more-info { width: 155px; height: 207px; background: #222; display: none; -moz-border-radius: 30px; -webkit-border-radius: 30px; border-radius: 30px; }
+#doctors  .doctor .more-info span { padding-top: 2em; display: block; }
+#doctors  .doctor .more-info span a { font-size: 1.5em; color: #fff; }
+#doctors  .doctor .over .more-info { background: transparent; }
+#doctors  .doctor h3 { font-size: 12px; white-space: nowrap; color: #fff; text-align: center; padding: 7px 0; background: #000; position: absolute; left: 0px; display: block; width: 130px; bottom: 0px; margin: 0; -moz-border-radius-bottomleft: 30px; -moz-border-radius-bottomright: 30px; -webkit-border-bottom-left-radius: 30px; -webkit-border-bottom-right-radius: 30px; opacity: 0.75; filter: alpha(opacity = 75 ); }
+#doctors  .clear { overflow: hidden; line-height: 1px; height: 1px; clear: both; }
